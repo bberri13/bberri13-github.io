@@ -1,0 +1,20 @@
+body {
+    background: url("images/Gradient-Background-Animation.gif") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: none;
+}
+
+video {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}

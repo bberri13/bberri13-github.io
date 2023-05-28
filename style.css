@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* for ameera alharmoodi text */
+.name{
+    text-align: center;
+    z-index:1;
+}
+
+.name h1{
+
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+}
+
+.name h1:hover{
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
+}
+
+.content a{
+    text-decoration: wavy;
+    display: inline-block;
+    color: rgb(48, 48, 48);
+    font-size: 20px;
+    border: 2px solid #24067f;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    z-index:1;
+}
+
+.hero{ 
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(12,3,51,0.3),rgba(79, 9, 123, 0.3)) ;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* background video home screen */
+.back-video{
+
+    min-height: 100%;
+    min-width: 1024px;
+
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:0;
+}
