@@ -1,0 +1,47 @@
+/* Center all images and text */
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Center div elements */
+  #nav, #first, #second, #third, #pow, #fourth, #fifth {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+  }
+  
+  /* Center text elements */
+  #angrycat-text, #second-text, #fourth-text, #fifth-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  }
+  
+  #fourth {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+  }
+  
+  #fourth-text {
+	font-size: 24px;
+	color: rgb(255, 0, 0);
+  }
+
+  #floating-image-container {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9999;
+	display: none;
+  }
+  
+  #floating-image {
+	width: 400px;
+  }

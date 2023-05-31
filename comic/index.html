@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>I punch you</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div id="nav">
+		<!-- link to divs on the same page using their id names -->
+		<a href="#mountain"><div class="nav-btn" id="first-page"></div></a>
+		<a href="#first-text"><div class="nav-btn" id="second-page"></div></a>
+		<a href="#ocean"><div class="nav-btn" id="third-page"></div></a>
+		<a href="#second-text"><div class="nav-btn" id="fourth-page"></div></a>
+	</div>
+	<!-- 
+	Four full browser size sections:
+	1. first
+	2. second
+	3. third
+	4. fourth
+	5. fifth
+	 -->
+	<div id="first">
+		<div id="angrycat-div">
+			<span id="angrycat-text">HEY YOU!</span>
+			<img id="angrycat" src="img/panel1.jpeg">
+		</div>
+	</div>
+	<div id="second">
+		<div id="dumbcat-div">
+			<span id="second-text">Haaa?</span>
+			<img id="dumbcat" src="img/panel2.png">
+		</div>
+	</div>
+	<div id="third">
+		<div id="punch-div">
+			<img id="punch" src="img/panel3.jpeg">
+		</div>
+	</div>
+	<div id="pow">
+		<div id="punch-div">
+			<img id="pow" src="img/pow2.jpeg">
+		</div>
+	</div>
+	<div id="fourth" onlick="showFloatingImage()">
+		<div id="cry-div">
+			<span id="fourth-text">AAAAAAAA</span>
+			<img id="cry" src="img/panel4.jpeg">
+
+		<div id="floating-image-container">
+			<img id="floatingimg" src="img/ouch.png">
+		</div>
+		</div>
+	</div>
+	<div id="fifth">
+		<div id="huh">
+			<span id="fifth-text">Huh? Did I just hear something?</span>
+			<img id="huh" src="img/panel5.jpeg">
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
